@@ -1,0 +1,13 @@
+<mat-card class="user-detail">
+  <img mat-card-image [src]="userDetail.avatar_url" alt="avatar">
+  <mat-card-content>
+    <mat-list class="user-detail__list" role="list">
+      <mat-list-item role="listitem">Location: {{ userDetail.location }}</mat-list-item>
+      <mat-list-item role="listitem">Followers: {{ userDetail.followers }}</mat-list-item>
+      <mat-list-item role="listitem">Following: {{ userDetail.following }}</mat-list-item>
+    </mat-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button [href]="userDetail.html_url" target=”_blank” >Follow</a>
+  </mat-card-actions>
+</mat-card>

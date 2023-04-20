@@ -1,0 +1,9 @@
+.user-detail {
+  width: 400px;
+
+  &__list {
+    mat-list-item {
+      padding: 0;
+    }
+  }
+}

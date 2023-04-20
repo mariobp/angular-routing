@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  main {
+    height: 100%;
+  }
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
